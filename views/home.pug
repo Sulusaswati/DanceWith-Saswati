@@ -1,0 +1,43 @@
+extends base.pug
+
+block scripts 
+    script(src="/static/index.js")
+block style
+    style
+      include ../static/style.css
+block content 
+    section#introSection
+        div Welcome to Saswati's Dance Academy 
+        div.small Eat, Sleep, Dance and Repeat
+    section#missionSection 
+        h2 Our Mission
+        div.card
+          h3 Dance like a dream!
+          div.card-box
+            div.card-img
+              img(src='/static/img_22.jpg')
+            div.card-content
+              p This is one of the finest dance Academies across the globe.
+        div.card
+          h3 Perfection and elegance comes with practice
+          div.card-box
+            div.card-img
+              img(src='/static/img_22.jpg')
+            div.card-content
+              p This is one of the finest dance Academies across the globe.
+        div.card
+          h3 World class teaching
+          div.card-box
+            div.card-img
+              img(src='/static/img_22.jpg')
+            div.card-content
+              p This is one of the finest dance Academies across the globe.
+    section#sponsersSection 
+        h2 Our Sponsers
+        div#sponsers
+          img(src="/static/logo1.jpg", alt="Sponser Image", class="SpImg")
+          img(src="/static/logo2.png", alt="Sponser Image", class="SpImg")
+          img(src="/static/logo3.png", alt="Sponser Image", class="SpImg")
+          img(src="/static/logo4.png", alt="Sponser Image", class="SpImg")
+    
+    

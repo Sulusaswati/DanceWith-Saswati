@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Saswati's Dance Academy 
+    block scripts
+    block style 
+  body
+    nav#navbar.top 
+        ul  
+          div#logo
+            img(src='/static/img_logo.jpg')
+            | SDA
+
+          li #[a(href="/") Home] 
+          li #[a(href="/") About] 
+          li #[a(href="/") Class Info] 
+          li #[a(href="/") Services ]
+          li #[a(href="/contact") Contact]
+    block content
+    footer#footer
+        |Copyright &#169 2021 SaswatiDanceAcademy. All Rights Reserved.
